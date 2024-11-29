@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 h-screen flex items-center justify-center">
+  <div class="bg-white p-6 rounded-xl shadow-lg w-80">
+    <div class="bg-gray-100 p-4 rounded-lg mb-4">
+      <input type="text" id="display" class="w-full text-right text-2xl font-bold bg-transparent outline-none" readonly>
+    </div>
+    <div class="grid grid-cols-4 gap-2">
+      <button class="bg-gray-200 hover:bg-gray-300 p-4 rounded-lg">C</button>
+      <button class="bg-gray-200 hover:bg-gray-300 p-4 rounded-lg">±</button>
+      <button class="bg-gray-200 hover:bg-gray-300 p-4 rounded-lg">%</button>
+      <button class="bg-orange-500 hover:bg-orange-600 text-white p-4 rounded-lg">÷</button>
+      <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg">7</button>
+      <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg">8</button>
+      <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg">9</button>
+      <button class="bg-orange-500 hover:bg-orange-600 text-white p-4 rounded-lg">×</button>
+      <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg">4</button>
+      <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg">5</button>
+      <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg">6</button>
+      <button class="bg-orange-500 hover:bg-orange-600 text-white p-4 rounded-lg">-</button>
+      <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg">1</button>
+      <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg">2</button>
+      <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg">3</button>
+      <button class="bg-orange-500 hover:bg-orange-600 text-white p-4 rounded-lg">+</button>
+      <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg col-span-2">0</button>
+      <button class="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg">.</button>
+      <button class="bg-orange-500 hover:bg-orange-600 text-white p-4 rounded-lg">=</button>
+    </div>
+  </div>
+
+  <script src="../orientado-eventos/script.js"></script>
+</body>
+</html>
